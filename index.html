@@ -14,7 +14,37 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="bg-light">
+    <!-- Header Start -->
+    <header class="bg-info">
+        <h1 class="text-center text-light py-2 m-0">Sentence Formatter</h1>
+    </header>
+    <!-- Header End -->
+    <!-- Main Section Start -->
+    <main>
+        <div>
+            <div class="row m-0 g-5">
+                <div class="col-md-6">
+                    <div>
+                        <label class="fw-bold" for="input-field">Input Area</label>
+                        <textarea class="form-control" placeholder="Enter your all sentences here." rows="16" id="input-field"></textarea>
+                        <div class="text-center">
+                            <button class="btn btn-primary btn-sm mt-3" id="formate-button">Formate</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <label class="fw-bold" for="output-field">Output</label>
+                        <textarea class="form-control" rows="16" id="output-field"></textarea>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!-- Main Section End -->
 
     <!-- Bootstrap JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
